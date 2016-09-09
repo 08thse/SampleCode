@@ -1,0 +1,2 @@
+# リストのファイルを削除する。並列処理版
+cat rmfile.list | xargs rm -f
