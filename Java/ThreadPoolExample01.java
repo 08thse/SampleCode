@@ -1,3 +1,6 @@
+// ExecutorService クラスを利用した ThreadPool のサンプル
+// 参考書籍：即戦力にならないといけない人のための Java 入門
+
 import java.util.concurrent.*;
 
 public class ThreadPoolExample01 implements Runnable {
