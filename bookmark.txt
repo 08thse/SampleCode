@@ -1,2 +1,18 @@
 URL:
 http://08thse.blog87.fc2.com/
+
+===
+
+パフォーマンス管理始めの一歩
+< http://www.oracle.com/technetwork/jp/articles/index-089901-ja.html >
+
+Statspack解析Tips - Oracle
+< http://www.oracle.com/technetwork/jp/ondemand/db-basic/20100728statspack-tips-251843-ja.pdf >
+
+第1回 StatspackとDiagnostics Packの概要と使用方法
+< http://www.oracle.com/technetwork/jp/articles/index-349908-ja.html >
+
+第3回 Statspackから探る、パフォーマンス問題の原因特定方法
+< http://www.oracle.com/technetwork/jp/database/articles/tsushima/tsm03-1598233-ja.html >
+
+http://www.atmarkit.co.jp/ait/articles/1007/26/news087_3.html
