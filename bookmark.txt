@@ -16,3 +16,27 @@ Statspack解析Tips - Oracle
 < http://www.oracle.com/technetwork/jp/database/articles/tsushima/tsm03-1598233-ja.html >
 
 http://www.atmarkit.co.jp/ait/articles/1007/26/news087_3.html
+
+===
+
+・Performance Tuning WCF Services, Part 1
+< https://msdn.microsoft.com/en-us/library/vstudio/hh323697(v=vs.100).aspx >
+
+・Performance Tuning WCF Services, Part 2
+< https://msdn.microsoft.com/en-us/library/vstudio/hh323713(v=vs.100).aspx >
+
+・Optimizing WCF Web Service Performance
+< https://msdn.microsoft.com/en-us/library/ee377061.aspx >
+
+・スケーラブルで "強い" WCF サービスの開発 - 松崎 剛 Blog - Site Home - MSDN Blogs
+< http://blogs.msdn.com/b/tsmatsuz/archive/2009/09/25/wcf-scalable-practical.aspx >
+
+・Performance Tuning for Web Servers
+  - Tuning IIS 8.5 
+< https://msdn.microsoft.com/en-us/library/dn567678.aspx#iis >
+
+・Managing Performance Settings : The Official Microsoft IIS Site
+< http://www.iis.net/learn/manage/managing-performance-settings >
+
+・第 17 章 「.NET アプリケーション パフォーマンスのチューニング」
+< https://msdn.microsoft.com/ja-jp/library/ff647813.aspx#scalenetchapt17_topic14 >
