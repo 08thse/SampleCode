@@ -40,3 +40,7 @@ http://www.atmarkit.co.jp/ait/articles/1007/26/news087_3.html
 
 ・第 17 章 「.NET アプリケーション パフォーマンスのチューニング」
 < https://msdn.microsoft.com/ja-jp/library/ff647813.aspx#scalenetchapt17_topic14 >
+
+===
+
+http://otn.oracle.co.jp/technology/global/jp/sdn/solaris/migration/sun2sun/to_x86.html
