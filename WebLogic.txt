@@ -1,2 +1,12 @@
+1. Oracle WebLogic Server 11g 製品概要
+
+2. 基本機能
 ・MAN/WAN レプリケーション
 　- EJB コンテナのリモート呼び出しはオーバーヘッドが大きくアンチパターン化している
+
+・RMI
+　- リモートスタブ：呼び出し側
+　- リモートスケルトン：呼び出される側
+
+今さら人に訊けない JNDI 第 1 回 「JNDI ってなんだっけ？」
+http://www.ibm.com/developerworks/jp/websphere/library/was/was_jndi/1.html#ibm-pcon
