@@ -48,4 +48,29 @@ http://www.atmarkit.co.jp/ait/articles/1007/26/news087_3.html
 
 ===
 
+失敗した要求トレースの規則 (機能)
+< https://technet.microsoft.com/ja-jp/library/hh831510.aspx >
+
+IIS7 のトレース機能を使用して失敗した要求をトラブルシューティングする
+< https://technet.microsoft.com/ja-jp/library/dd647604.aspx >
+
+ASP.NET アプリケーションを利用している場合は、Visual Studio のプロファイリングツールを利用する方法も
+
+パフォーマンス プロファイリングのビギナーズ ガイド
+< https://msdn.microsoft.com/ja-jp/library/ms182372.aspx >
+
+プロファイリング ツールの使用
+< https://msdn.microsoft.com/ja-jp/library/z9z62c29.aspx >
+
+方法: パフォーマンス ウィザードを使用して Web サイトまたは Web アプリケーションのプロファイリングを行う
+< https://msdn.microsoft.com/ja-jp/library/2s0xxa1d.aspx >
+
+方法: Web ページ内の JavaScript (ECMA) コードをプロファイリングする
+< https://msdn.microsoft.com/ja-jp/library/dd264908.aspx >
+
+Visual Studioのプロファイラを使って性能評価を行う － ＠IT
+< http://www.atmarkit.co.jp/fdotnet/chushin/vsperf_02/vsperf_02_01.html >
+
+===
+
 http://otn.oracle.co.jp/technology/global/jp/sdn/solaris/migration/sun2sun/to_x86.html
