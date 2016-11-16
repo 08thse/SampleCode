@@ -10,3 +10,6 @@
 
 今さら人に訊けない JNDI 第 1 回 「JNDI ってなんだっけ？」
 http://www.ibm.com/developerworks/jp/websphere/library/was/was_jndi/1.html#ibm-pcon
+
+・JDBC
+　- 設定は weblogic-jdbc.xsd という専用 XML ファイルに記述する
