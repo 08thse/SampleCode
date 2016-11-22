@@ -1,3 +1,8 @@
+// 空の Win32 コンソールアプリケーションを作成し、
+// 新規クラスを用意すれば OK
+//
+// 参考：『Windows プログラミングの極意』
+
 #define STRICT
 #include <windows.h>
 #include <windowsx.h>
