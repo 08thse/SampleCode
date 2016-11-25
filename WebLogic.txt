@@ -13,3 +13,7 @@ http://www.ibm.com/developerworks/jp/websphere/library/was/was_jndi/1.html#ibm-p
 
 ・JDBC
 　- 設定は weblogic-jdbc.xsd という専用 XML ファイルに記述する
+
+3. 構築
+・Apache との連携は、mod_wl_**.so モジュールを LoadModule して、SetHandler/PathTrim や 
+IfModule ディレクティブの設定を行えば OK
