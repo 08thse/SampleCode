@@ -17,3 +17,6 @@ http://www.ibm.com/developerworks/jp/websphere/library/was/was_jndi/1.html#ibm-p
 3. 構築
 ・Apache との連携は、mod_wl_**.so モジュールを LoadModule して、SetHandler/PathTrim や 
 IfModule ディレクティブの設定を行えば OK
+
+4. 応用コンフィグレーション
+・JMS：送信側をプロデューサ、受信側をコンシューマと呼ぶ
