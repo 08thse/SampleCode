@@ -29,6 +29,8 @@ service.hoge("foo", "bar");
 　その他、prototype、session、request などがある
 ・設定の外出し：「@Autowired public Environment env;」で環境変数を扱ったり、
 　@Value を使ったり、@PropertySource で外部ファイルを参照したり
+・@Profile アノテーションを使ってコンフィグレーションの選択も可能。選択方法は
+　@ActiveProfiles やシステムプロパティ、web.xml などで指定する
 
 ■
 
