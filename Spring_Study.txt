@@ -1,0 +1,40 @@
+■Spring Framework 概要
+・Spring はアプリケーションオブジェクトのコンテナとして機能する
+　- オブジェクトは互いに探したり、繋げたりする必要はない
+・Spring はオブジェクトをインスタンス化し、依存性を注入する
+　- ライフサイクルマネージャとして機能する
+
+■Spring を用いた Dependency Injection
+・Spring はアプリケーションのライフサイクルを管理する
+　- 使用される前に、Bean は全て完全に初期化されている
+　- Bean は依存性に基づき、正しい順番で作成される
+　- 各 Bean は一意の ID で紐付けされている
+・@Configuration や @Bean アノテーションでコンフィグレーションの設定
+===
+ApplicationContext context = SpringApplication.run(ApplicationConfig.class);
+
+// アプリケーションサービスインタフェースから検索する
+TestService service = (TestService) context.getBean("TestService");
+
+// ユニークタイプなら、Bean ID はクラス名を指定しても OK
+// TestService service = context.getBean(TestService.class);
+
+// アプリケーションを使用する
+service.hoge("foo", "bar");
+===
+・コンフィグレーションの設定は @import アノテーションで別クラスからインポート
+　もできる。インフラ／アプリの設定分離や、利用ケース (Debug 用など) によって
+　設定を分けておくように設計すると便利
+・Bean のスコープ：デフォルトは singleton なので、インスタンスはひとつのみ。
+　その他、prototype、session、request などがある
+・設定の外出し：「@Autowired public Environment env;」で環境変数を扱ったり、
+　@Value を使ったり、@PropertySource で外部ファイルを参照したり
+
+■
+
+
+
+
+
+
+
