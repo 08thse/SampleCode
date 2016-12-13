@@ -32,8 +32,25 @@ service.hoge("foo", "bar");
 ・@Profile アノテーションを使ってコンフィグレーションの選択も可能。選択方法は
 　@ActiveProfiles やシステムプロパティ、web.xml などで指定する
 
-■
-
+■Spring アノテーション
+・@ComponentScan で、指定されたパッケージから、@Component 指定されたクラスを探す
+　@Component 指定したクラスで、コンストラクタやメソッド等に @Autowired を付与するのが一般的？
+・@Autowired は、既定では付与された依存性は必須であり、存在しない場合は例外となる。
+　必須でなくするためには、@Autowired(required=false) とする
+・@Qualifier アノテーションの使用 (Inject するクラスの明示的指定)
+===
+@Component("transferService")
+public class TestServiceImpl implements TestService {
+   @Autowired
+   public TestServiceImpl(@Qualifier("jdbcTestRepository") TestRepository testRepository) { ... } ...
+----------
+@Component("jdbcTestRepository")
+public class JdbcTestRepository implements TestRepository { ... }
+----------
+@Component("jpaTestRepository")
+public class JpaTestRepository implements TestRepository { ... }
+===
+・Inject するクラスの明示的指定は、@Qualifier じゃなくてコンポーネントネームの使用も検討
 
 
 
