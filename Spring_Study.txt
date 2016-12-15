@@ -35,6 +35,7 @@ service.hoge("foo", "bar");
 ■Spring アノテーション
 ・@ComponentScan で、指定されたパッケージから、@Component 指定されたクラスを探す
 　@Component 指定したクラスで、コンストラクタやメソッド等に @Autowired を付与するのが一般的？
+　スキャン処理で重くなるのを防ぐため、必要最低限のクラスを指定しよう
 ・@Autowired は、既定では付与された依存性は必須であり、存在しない場合は例外となる。
 　必須でなくするためには、@Autowired(required=false) とする
 ・@Qualifier アノテーションの使用 (Inject するクラスの明示的指定)
@@ -51,9 +52,14 @@ public class JdbcTestRepository implements TestRepository { ... }
 public class JpaTestRepository implements TestRepository { ... }
 ===
 ・Inject するクラスの明示的指定は、@Qualifier じゃなくてコンポーネントネームの使用も検討
+・@PostConstruct と @PreDestroy
+　- @PostConstruct：コンストラクタ -> setter 系 -> 当該メソッド
+　- @PreDestroy：コンテキストが close() されたときに呼び出される
+　- 上記ふたつは @Bean のオプションで指定することも可能。アノテーションを付与できない (いじれない) 場合にはこの方法で
+＃@Resource については違いや使いどころがよくわからん
+・JSR330 アノテーション：@Named や @Inject など。イメージはそれぞれ @Component と @Autowired
 
-
-
+■XML を用いた DI
 
 
 
