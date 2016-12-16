@@ -1,0 +1,17 @@
+italk.c をコンパイルし、xinetd.conf にて、以下のように記述し、プログラ
+ムを italk サービス (12345/tcp) として起動する。
+
+===
+service italk
+{
+  disable = no
+  socket_type = stream
+  wait = no
+  user = <プログラムを動作させるユーザ名>
+  server = <プログラムのパス>
+}
+===
+
+クライアントから telnet などで 12345 ポートに接続すると、サーバ側の IP 
+アドレスとポート番号、および、クライアント側の IP アドレスとポート番号
+が表示される。
