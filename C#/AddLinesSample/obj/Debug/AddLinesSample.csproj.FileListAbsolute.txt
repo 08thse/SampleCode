@@ -1,0 +1,5 @@
+c:\users\sou\documents\visual studio 2017\Projects\AddLinesSample\AddLinesSample\bin\Debug\AddLinesSample.exe.config
+c:\users\sou\documents\visual studio 2017\Projects\AddLinesSample\AddLinesSample\bin\Debug\AddLinesSample.exe
+c:\users\sou\documents\visual studio 2017\Projects\AddLinesSample\AddLinesSample\bin\Debug\AddLinesSample.pdb
+c:\users\sou\documents\visual studio 2017\Projects\AddLinesSample\AddLinesSample\obj\Debug\AddLinesSample.exe
+c:\users\sou\documents\visual studio 2017\Projects\AddLinesSample\AddLinesSample\obj\Debug\AddLinesSample.pdb
