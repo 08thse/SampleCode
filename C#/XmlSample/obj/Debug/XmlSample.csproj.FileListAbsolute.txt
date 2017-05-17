@@ -1,0 +1,6 @@
+c:\users\sou\documents\visual studio 2017\Projects\XmlSample\XmlSample\bin\Debug\XmlSample.exe.config
+c:\users\sou\documents\visual studio 2017\Projects\XmlSample\XmlSample\bin\Debug\XmlSample.exe
+c:\users\sou\documents\visual studio 2017\Projects\XmlSample\XmlSample\bin\Debug\XmlSample.pdb
+c:\users\sou\documents\visual studio 2017\Projects\XmlSample\XmlSample\obj\Debug\XmlSample.csprojResolveAssemblyReference.cache
+c:\users\sou\documents\visual studio 2017\Projects\XmlSample\XmlSample\obj\Debug\XmlSample.exe
+c:\users\sou\documents\visual studio 2017\Projects\XmlSample\XmlSample\obj\Debug\XmlSample.pdb
